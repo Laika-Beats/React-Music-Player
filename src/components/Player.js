@@ -35,8 +35,6 @@ function Player({
     setSongInfo({ ...songInfo, currentTime: e.target.value });
   };
 
-  const pauseToggle = () => {};
-
   return (
     <div className="player">
       <div className="time-control">
