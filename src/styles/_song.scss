@@ -6,8 +6,10 @@
   justify-content: center;
   img {
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
     width: 35%;
     border-radius: 10%;
+    box-shadow: 1px 1px 10px #203647;
   }
   h2 {
     padding: 3rem 1rem 1rem 1rem;
@@ -21,6 +23,7 @@
   .song-container {
     img {
       width: 80%;
+      box-shadow: 1px 1px 10px #203647;
     }
   }
 }

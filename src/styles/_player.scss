@@ -9,7 +9,7 @@
 .time-control {
   width: 50%;
   display: flex;
-  margin-top: 1rem;
+  margin-top: 2rem;
   input {
     width: 100%;
     -webkit-appearance: none;
@@ -40,6 +40,11 @@ input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 16px;
   width: 16px;
+}
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
 }
 
 .track {

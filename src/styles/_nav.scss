@@ -7,12 +7,12 @@ nav {
     background: transparent;
     border: none;
     cursor: pointer;
-    border: 2px solid rgb(65, 65, 65);
+    border: 2px solid #eefbfb;
     padding: 0.5rem;
     transition: all 0.3s ease;
     &:hover {
-      background: rgb(65, 65, 65);
-      color: #fff;
+      background: #007cc7;
+      color: #eefbfb;
     }
   }
 }
@@ -21,6 +21,7 @@ nav {
   nav {
     button {
       z-index: 10;
+      margin-right: 1rem;
     }
   }
 }

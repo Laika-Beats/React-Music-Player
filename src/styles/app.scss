@@ -3,17 +3,19 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
+  background: #12232e;
+  color: #eefbfb;
 }
 
 h1,
 h2,
 h3 {
-  color: rgb(54, 54, 54);
+  color: #eefbfb;
 }
 h3,
 h4 {
   font-weight: 400;
-  color: rgb(100, 100, 100);
+  color: #eefbfb;
 }
 .App {
   transition: all 0.5s ease;
