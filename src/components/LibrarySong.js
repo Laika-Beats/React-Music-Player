@@ -1,5 +1,4 @@
 import React from "react";
-import { playAudio } from "../util";
 
 const LibrarySong = ({
   setCurrentSong,
@@ -26,7 +25,6 @@ const LibrarySong = ({
       }
     });
     setSongs(newSongs);
-    playAudio(isPlaying, audioRef);
   };
   return (
     <div
